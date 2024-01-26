@@ -1,0 +1,101 @@
+[
+  {
+    "id":"31694082616377792485"
+   ,"Identification":{
+      "Name":"Commented Out"
+    }
+   ,"Status":{
+      "Status":"Exclude"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Subscription":{
+      "Version Number":15497914449781
+    }
+  }
+ ,{
+    "id":"31694375698989792689"
+   ,"Identification":{
+      "Name":"Feature: Activity Reporting"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"Include numerous reports and charts on end user activity."
+    }
+   ,"Subscription":{
+      "Version Number":15497914452529
+    }
+  }
+ ,{
+    "id":"31694375708370792689"
+   ,"Identification":{
+      "Name":"Feature: Feedback"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"Provide a mechanism for end users to post general comments back to the application administrators and developers."
+    }
+   ,"Subscription":{
+      "Version Number":15497914452529
+    }
+  }
+ ,{
+    "id":"31694375918737792689"
+   ,"Identification":{
+      "Name":"Feature: Configuration Options"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"Allow application administrators to enable or disable specific functionality, associated with an Oracle APEX build option, from within the application."
+    }
+   ,"Subscription":{
+      "Version Number":15497914452529
+    }
+  }
+ ,{
+    "id":"31694376217421792689"
+   ,"Identification":{
+      "Name":"Feature: About Page"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"About this application page."
+    }
+   ,"Subscription":{
+      "Version Number":15497914452529
+    }
+  }
+ ,{
+    "id":"31694376397087792689"
+   ,"Identification":{
+      "Name":"Feature: Theme Style Selection"
+    }
+   ,"Status":{
+      "Status":"Include"
+     ,"Default on Export":"Same as Current Status"
+     ,"On Upgrade Keep Status":false
+    }
+   ,"Comments":{
+      "Comments":"Allow administrators to select a default color scheme (theme style) for the application. Administrators can also choose to allow end users to choose their own theme style. "
+    }
+   ,"Subscription":{
+      "Version Number":15497914452531
+    }
+  }
+]

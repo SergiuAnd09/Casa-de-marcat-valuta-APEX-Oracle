@@ -1,0 +1,208 @@
+[
+  {
+    "id":"31694483141375794073"
+   ,"Identification":{
+      "Name":"DESKTOP THEME STYLES"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"SQL Query"
+     ,"SQL Query":"select s.name d,\n       s.theme_style_id r\n  from apex_application_theme_styles s,\n       apex_application_themes t\n where s.application_id = :app_id\n   and t.application_id = s.application_id\n   and t.theme_number   = s.theme_number\n   and t.is_current     = \u0027Yes\u0027\n order by 1"
+    }
+   ,"Column Mapping":{
+      "Return":"R"
+     ,"Display":"D"
+     ,"Default Sort":"Use Order By from Query"
+    }
+  }
+ ,{
+    "id":"31694483882172794075"
+   ,"Identification":{
+      "Name":"USER_THEME_PREFERENCE"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"31694484138782794075"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Allow End Users to choose Theme Style"
+         ,"Return":"Yes"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"31694516341094794491"
+   ,"Identification":{
+      "Name":"TIMEFRAME (4 WEEKS)"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"SQL Query"
+     ,"SQL Query":"select disp,\n       val as seconds\n  from table( apex_util.get_timeframe_lov_data )\n order by insert_order"
+    }
+   ,"Column Mapping":{
+      "Return":"SECONDS"
+     ,"Display":"DISP"
+     ,"Default Sort":"Use Order By from Query"
+    }
+  }
+ ,{
+    "id":"31694569816208794540"
+   ,"Identification":{
+      "Name":"VIEW_AS_REPORT_CHART"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"31694570140270794541"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Add Report Page"
+         ,"Return":"REPORT"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan class=\"fa fa-table\" aria-hidden=\"true\"\u003E\u003C\/span\u003E\u003Cspan class=\"u-VisuallyHidden\"\u003E#DISPLAY_VALUE#\u003C\/span\u003E"
+        }
+      }
+     ,{
+        "id":"31694570561929794541"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"Add Chart Page"
+         ,"Return":"CHART"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan class=\"fa fa-pie-chart\" aria-hidden=\"true\"\u003E\u003C\/span\u003E\u003Cspan class=\"u-VisuallyHidden\"\u003E#DISPLAY_VALUE#\u003C\/span\u003E"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"31694592950387794559"
+   ,"Identification":{
+      "Name":"FEEDBACK_RATING"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"31694593234117794559"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"Positive"
+         ,"Return":"3"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan title=\"#DISPLAY_VALUE#\" aria-label=\"#DISPLAY_VALUE#\"\u003E\u003Cspan class=\"fa fa-smile-o fa-2x feedback-positive\" aria-hidden=\"true\" \u003E\u003C\/span\u003E\u003C\/span\u003E"
+        }
+      }
+     ,{
+        "id":"31694593673088794559"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"Neutral"
+         ,"Return":"2"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan title=\"#DISPLAY_VALUE#\" aria-label=\"#DISPLAY_VALUE#\"\u003E\u003Cspan class=\"fa fa-emoji-neutral fa-2x feedback-neutral\" aria-hidden=\"true\" \u003E\u003C\/span\u003E\u003C\/span\u003E"
+        }
+      }
+     ,{
+        "id":"31694594049705794559"
+       ,"Entry":{
+          "Sequence":3
+         ,"Display":"Negative"
+         ,"Return":"1"
+        }
+       ,"Globalization":{
+          "Template":"\u003Cspan title=\"#DISPLAY_VALUE#\" aria-label=\"#DISPLAY_VALUE#\"\u003E\u003Cspan class=\"fa fa-frown-o fa-2x feedback-negative\" aria-hidden=\"true\" \u003E\u003C\/span\u003E\u003C\/span\u003E"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"31694605417668794567"
+   ,"Identification":{
+      "Name":"FEEDBACK_STATUS"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"31694605732256794567"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"No Action"
+         ,"Return":"0"
+        }
+      }
+     ,{
+        "id":"31694606197659794567"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"Acknowledged"
+         ,"Return":"1"
+        }
+      }
+     ,{
+        "id":"31694606543225794567"
+       ,"Entry":{
+          "Sequence":3
+         ,"Display":"Open"
+         ,"Return":"3"
+        }
+      }
+     ,{
+        "id":"31694606999916794568"
+       ,"Entry":{
+          "Sequence":4
+         ,"Display":"Closed"
+         ,"Return":"4"
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"32609317308500429762"
+   ,"Identification":{
+      "Name":"CURS_VALUTAR.DATAZILEI"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"CURS_VALUTAR"
+    }
+   ,"Column Mapping":{
+      "Return":"DATAZILEI"
+     ,"Default Sort":"DATAZILEI"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"32609317572335429763"
+   ,"Identification":{
+      "Name":"PARTENERI.NUME"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"PARTENERI"
+    }
+   ,"Column Mapping":{
+      "Return":"CUI"
+     ,"Display":"NUME"
+     ,"Default Sort":"NUME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+]

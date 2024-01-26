@@ -1,0 +1,298 @@
+[
+  {
+    "id":"31694083233273792485"
+   ,"Identification":{
+      "Name":"Breadcrumb"
+    }
+   ,"Entries":[
+      {
+        "id":"31694083447733792486"
+       ,"Identification":{
+          "Name":"Home"
+         ,"Page Number":"1"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"1"
+          }
+        }
+      }
+     ,{
+        "id":"31694398443778792811"
+       ,"Identification":{
+          "Name":"Curs Valutar"
+         ,"Page Number":"2"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+      }
+     ,{
+        "id":"31694410449516793230"
+       ,"Identification":{
+          "Name":"Parteneri"
+         ,"Page Number":"4"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:4:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"4"
+          }
+        }
+      }
+     ,{
+        "id":"31694423208358793636"
+       ,"Identification":{
+          "Name":"Tranzactii"
+         ,"Page Number":"6"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:6:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"6"
+          }
+        }
+      }
+     ,{
+        "id":"31694444553090794041"
+       ,"Identification":{
+          "Name":"Bilant Zilnic"
+         ,"Page Number":"8"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:8:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"8"
+          }
+        }
+      }
+     ,{
+        "id":"31694630933007794586"
+       ,"Identification":{
+          "Name":"Administration"
+         ,"Page Number":"10000"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10000:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"10000"
+          }
+        }
+      }
+     ,{
+        "id":"32611050665551441055"
+       ,"Identification":{
+          "Name":"Adaugare Tranzactii"
+         ,"Page Number":"12"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:12:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"12"
+          }
+        }
+      }
+     ,{
+        "id":"32613180278885462571"
+       ,"Identification":{
+          "Name":"Adaugare Curs Valutar"
+         ,"Page Number":"13"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:13:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"13"
+          }
+        }
+      }
+     ,{
+        "id":"34997745750046894119"
+       ,"Identification":{
+          "Name":"Adaugare Bilant"
+         ,"Page Number":"10"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:10:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"10"
+          }
+        }
+      }
+     ,{
+        "id":"34997932967070898264"
+       ,"Identification":{
+          "Name":"Adaugare Partener"
+         ,"Page Number":"11"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:11:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"11"
+          }
+        }
+      }
+     ,{
+        "id":"35036064845646320972"
+       ,"Identification":{
+          "Name":"ParteneriCuTranzactii"
+         ,"Page Number":"17"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:17:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"17"
+          }
+        }
+      }
+     ,{
+        "id":"35055147949542677544"
+       ,"Identification":{
+          "Name":"Cerinta5"
+         ,"Page Number":"19"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:19:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"19"
+          }
+        }
+      }
+     ,{
+        "id":"35091361431838717907"
+       ,"Identification":{
+          "Name":"TotiParteneriiCuTranzactiileLor"
+         ,"Page Number":"28"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:28:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"28"
+          }
+        }
+      }
+     ,{
+        "id":"35109488217635991754"
+       ,"Identification":{
+          "Name":"Rulaj Partener Dupa CUI"
+         ,"Page Number":"30"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:30:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"30"
+          }
+        }
+      }
+     ,{
+        "id":"45401214307988781478"
+       ,"Identification":{
+          "Name":"procese"
+         ,"Page Number":"14"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:14:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"14"
+          }
+        }
+      }
+     ,{
+        "id":"45431123723529601022"
+       ,"Identification":{
+          "Name":"cerinta8"
+         ,"Page Number":"16"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:16:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"16"
+          }
+        }
+      }
+     ,{
+        "id":"45778294132803348051"
+       ,"Identification":{
+          "Name":"Cerinta 10"
+         ,"Page Number":"21"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:21:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"21"
+          }
+        }
+      }
+     ,{
+        "id":"45778421708752029050"
+       ,"Identification":{
+          "Name":"Cerinta 9"
+         ,"Page Number":"18"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:18:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"18"
+          }
+        }
+      }
+    ]
+  }
+]
